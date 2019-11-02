@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <%- include ./partials/head -%>
+
+    <body>
+        <%- include ./partials/header -%>
+
+        <div class="card mt-2">
+            <div class="card-header">
+                <i class="fas fa-folder-open"></i>
+                <span class="ml-1 font-weight-bold">Alle B&uuml;cher</span>
+            </div>
+
+            <div class="card-body">
+                <table class="table table-striped table-hover table-responsive">
+                    <thead class="thead-default">
+                        <tr>
+                            <th>ID</th>
+                            <th>Titel</th>
+                            <th>Verlag</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <% spiele.forEach((spiel) => { %>
+                        <tr>
+                            <td><%= spiel._id %></td>
+                            <td><%= spiel.titel %></td>
+                            <td><%= spiel.verlag %></td>
+                        </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <%- include ./partials/footer -%>
+    </body>
+</html>

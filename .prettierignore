@@ -1,0 +1,8 @@
+# https://git-scm.com/docs/gitignore#_pattern_format
+dist
+nodes_modules
+# https://github.com/prettier/prettier/issues/6595
+# https://github.com/prettier/prettier/issues/6574
+src/server/spiel/rest/spiel.request-handler.ts
+src/server/shared/config/db.ts
+src/server/shared/config/server.ts

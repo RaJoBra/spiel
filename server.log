@@ -1,0 +1,220 @@
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T11:54:04.090Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-10-31T11:54:04.093Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-10-31T11:54:04.094Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-10-31T11:54:09.701Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-10-31T11:54:09.729Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-10-31T11:54:13.005Z"}
+info: 
+       __                                    _____
+      / /_  _____  _________ ____  ____     /__  /
+ __  / / / / / _ \/ ___/ __ `/ _ \/ __ \      / /
+/ /_/ / /_/ /  __/ /  / /_/ /  __/ / / /     / /___
+\____/\__,_/\___/_/   \__, /\___/_/ /_/     /____(_)
+                     /____/
+ {"timestamp":"2019-10-31T11:54:13.014Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-10-31T11:54:13.016Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-10-31T11:54:13.021Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-10-31T11:54:13.023Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-10-31T11:54:13.024Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-user": "?1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "sec-fetch-site": "none",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2019-10-31T12:16:07.809Z"}
+debug: Request: protocol="https" {"timestamp":"2019-10-31T12:16:07.810Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-10-31T12:16:07.810Z"}
+debug: Response time: 25.9785 ms {"timestamp":"2019-10-31T12:16:07.835Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "sec-fetch-mode": "no-cors",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2019-10-31T12:16:08.159Z"}
+debug: Request: protocol="https" {"timestamp":"2019-10-31T12:16:08.159Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-10-31T12:16:08.159Z"}
+debug: Response time: 13.072099 ms {"timestamp":"2019-10-31T12:16:08.172Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-user": "?1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "sec-fetch-site": "none",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2019-10-31T12:16:25.706Z"}
+debug: Request: protocol="https" {"timestamp":"2019-10-31T12:16:25.706Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-10-31T12:16:25.706Z"}
+debug: Response time: 62.7726 ms {"timestamp":"2019-10-31T12:16:25.769Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "1765",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2019-10-31T12:16:26.302Z"}
+debug: Request: protocol="https" {"timestamp":"2019-10-31T12:16:26.302Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-10-31T12:16:26.303Z"}
+debug: Response time: 122.1651 ms {"timestamp":"2019-10-31T12:16:26.424Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "965",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"
+} {"timestamp":"2019-10-31T12:17:32.091Z"}
+debug: Request: protocol="https" {"timestamp":"2019-10-31T12:17:32.092Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-10-31T12:17:32.092Z"}
+debug: SpielService.find(): query=[object Object] {"timestamp":"2019-10-31T12:17:32.101Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-10-31T12:17:32.104Z"}
+debug: Response time: 32.403301 ms {"timestamp":"2019-10-31T12:17:32.123Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T12:18:26.238Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-10-31T12:18:26.241Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-10-31T12:18:26.241Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-10-31T12:18:27.151Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-10-31T12:18:27.174Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-10-31T12:18:29.529Z"}
+info: 
+       __                                    _____
+      / /_  _____  _________ ____  ____     /__  /
+ __  / / / / / _ \/ ___/ __ `/ _ \/ __ \      / /
+/ /_/ / /_/ /  __/ /  / /_/ /  __/ / / /     / /___
+\____/\__,_/\___/_/   \__, /\___/_/ /_/     /____(_)
+                     /____/
+ {"timestamp":"2019-10-31T12:18:29.536Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-10-31T12:18:29.538Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-10-31T12:18:29.539Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-10-31T12:18:29.540Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-10-31T12:18:29.541Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T10:02:09.690Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-11-02T10:02:09.695Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-11-02T10:02:09.695Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:02:17.025Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:02:17.053Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-11-02T10:02:20.114Z"}
+info: 
+       __                                    _____
+      / /_  _____  _________ ____  ____     /__  /
+ __  / / / / / _ \/ ___/ __ `/ _ \/ __ \      / /
+/ /_/ / /_/ /  __/ /  / /_/ /  __/ / / /     / /___
+\____/\__,_/\___/_/   \__, /\___/_/ /_/     /____(_)
+                     /____/
+ {"timestamp":"2019-11-02T10:02:20.120Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-11-02T10:02:20.123Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-11-02T10:02:20.124Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-11-02T10:02:20.127Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-11-02T10:02:20.127Z"}
+info: Server wird heruntergefahren... {"timestamp":"2019-11-02T10:02:52.373Z"}
+warn: DB-Verbindung wird geschlossen... {"timestamp":"2019-11-02T10:02:52.375Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T10:03:01.964Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-11-02T10:03:01.966Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-11-02T10:03:01.966Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:03:02.695Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:03:02.714Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-11-02T10:03:04.977Z"}
+info: 
+       __                                    _____
+      / /_  _____  _________ ____  ____     /__  /
+ __  / / / / / _ \/ ___/ __ `/ _ \/ __ \      / /
+/ /_/ / /_/ /  __/ /  / /_/ /  __/ / / /     / /___
+\____/\__,_/\___/_/   \__, /\___/_/ /_/     /____(_)
+                     /____/
+ {"timestamp":"2019-11-02T10:03:04.984Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-11-02T10:03:04.985Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-11-02T10:03:04.988Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-11-02T10:03:04.989Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-11-02T10:03:04.990Z"}
+info: Server wird heruntergefahren... {"timestamp":"2019-11-02T10:05:28.472Z"}
+warn: DB-Verbindung wird geschlossen... {"timestamp":"2019-11-02T10:05:28.475Z"}
+warn: DB-Verbindung ist geschlossen. {"timestamp":"2019-11-02T10:05:28.483Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T10:05:45.618Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-11-02T10:05:45.620Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-11-02T10:05:45.620Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:05:46.419Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:05:46.442Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-11-02T10:05:48.775Z"}
+info: 
+       __                                    _____
+      / /_  _____  _________ ____  ____     /__  /
+ __  / / / / / _ \/ ___/ __ `/ _ \/ __ \      / /
+/ /_/ / /_/ /  __/ /  / /_/ /  __/ / / /     / /___
+\____/\__,_/\___/_/   \__, /\___/_/ /_/     /____(_)
+                     /____/
+ {"timestamp":"2019-11-02T10:05:48.781Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-11-02T10:05:48.782Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-11-02T10:05:48.785Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-11-02T10:05:48.786Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-11-02T10:05:48.786Z"}
+info: Server wird heruntergefahren... {"timestamp":"2019-11-02T10:07:37.675Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T10:08:47.894Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-11-02T10:08:47.897Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-11-02T10:08:47.897Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:08:53.083Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:08:53.109Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-11-02T10:08:55.963Z"}
+info: 
+ _________ _____ ______   
+ |_  | ___   __ | ___   
+   | | |_/ / |  /| |_/ / 
+   | | ___  | __ | ___  
+/__/ / |_/ / |_ | |_/ / 
+____/____/ ____/____/  
+
+ {"timestamp":"2019-11-02T10:08:55.967Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-11-02T10:08:55.970Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-11-02T10:08:55.971Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-11-02T10:08:55.971Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-11-02T10:08:55.972Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T10:13:01.868Z"}
+debug: Upload-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\upload {"timestamp":"2019-11-02T10:13:01.871Z"}
+debug: Download-Verzeichnis: C:\Users\rapha\Documents\SWE\Eigen\Mean_ohne_Anuglar - Kopie\dist\temp\download {"timestamp":"2019-11-02T10:13:01.871Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:13:07.135Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"adriana.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"adriana.alpha@hska.de","roles":["admin","mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"alfred.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"alfred.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"anton.alpha","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"anton.alpha@hska.de","roles":["mitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"dirk.delta","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"dirk.delta@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"emil.epsilon","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"emil.epsilon@hska.de"}] {"timestamp":"2019-11-02T10:13:07.160Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2019-11-02T10:13:10.007Z"}
+info: 
+______/\\\\\__/\\\\\\_______/\\\\\\__/\\\\\\___ 
+_____/////\///__/\/////////\___/\//////////__/\/////////\_ 
+ _________/\_____/\_______/\__/\_____________/\_______/\_
+  _________/\_____/\\\\\\\__/\____/\\\_/\\\\\\\__   
+   _________/\_____/\/////////\_/\___/////\_/\/////////\_   
+    _________/\_____/\_______/\_/\_______/\_/\_______/\_   
+     __/\___/\_____/\_______/\_/\_______/\_/\_______/\_  
+      _//\\\\______/\\\\\\/__//\\\\\\/__/\\\\\\/__ 
+       __/////////_______/////////////_____////////////____/////////////____
+
+ {"timestamp":"2019-11-02T10:13:10.012Z"}
+info: Node Version:   v13.0.0-rc.1 {"timestamp":"2019-11-02T10:13:10.013Z"}
+info: Betriebssystem: Windows_NT 10.0.18362 {"timestamp":"2019-11-02T10:13:10.015Z"}
+info: Rechnername:    DESKTOP-RKFLG3M {"timestamp":"2019-11-02T10:13:10.016Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2019-11-02T10:13:10.016Z"}
